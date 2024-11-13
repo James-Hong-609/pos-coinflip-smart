@@ -11,7 +11,7 @@ import CryptoJS from 'crypto-js';
 import { TOKEN_PROGRAM_ID, getOrCreateAssociatedTokenAccount, getAssociatedTokenAddress, transfer, getAccount, createTransferInstruction } from '@solana/spl-token';
 
 const HOUSE_PUBLIC_KEY = new PublicKey(process.env.REACT_APP_HOUSE_PUBLIC_ADDRESS); // Replace with the house's public key
-const POS_TOKEN_MINT_ADDRESS = new PublicKey(process.env.REACT_APP_POS_TOKEN_MINT_ADDRESS);
+// const POS_TOKEN_MINT_ADDRESS = new PublicKey(process.env.REACT_APP_POS_TOKEN_MINT_ADDRESS);
 
 
 
