@@ -226,7 +226,7 @@ const CoinFlip = ({ coinFace = [heads, tails] }) => {
           try {
             const signature = await sendAndConfirmTransaction(connection, transaction, signers, {
               commitment: 'confirmed', // Or 'finalized' if you want stronger confirmation
-              preflightCommitment: 'processed', // Optional, helps ensure the transaction is valid before sending
+              //preflightCommitment: 'processed', // Optional, helps ensure the transaction is valid before sending
             });
             setResult('You won 50 POS tokens!');
 
